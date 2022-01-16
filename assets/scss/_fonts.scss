@@ -48,3 +48,11 @@
   src: url("../fonts/Inter-BoldItalic.woff2") format("woff2"),
        url("../fonts/Inter-BoldItalic.woff") format("woff");
 }
+
+@font-face {
+  font-family: 'DMSerifDisplay';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 200;
+  src: url("../fonts/DMSerifDisplay-Italic.woff") format("woff");
+}

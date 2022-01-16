@@ -69,7 +69,7 @@ h6 {
 }
 
 h1 {
-  font-size: 2.625rem;
+  font-size: 5rem;
 }
 
 h2 {
@@ -432,4 +432,104 @@ hr {
 // Prism JS Additionals
 .highlight {
   margin: 30px auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    align-items: flex-end;
+    background-color: $light-background;
+    
+    @media (prefers-color-scheme: dark) {
+    background-color: $dark-background;
+    }
+
+    @media (prefers-color-scheme: light) {
+    background-color: $light-background;
+    }
+
+    [data-theme=dark] & {
+    background-color: $dark-background;
+    }
+
+    [data-theme=light] & {
+    background-color: $light-background;
+    }
+    
+}
+
+.flex-container > h1 {
+    display: block;
+    font-size: 6.5rem;
+    text-align: left;
+    font-family: 'DMSerifDisplay', serif;
+    padding-right: 200px;
+    justify-content: 'space-around';
+    line-height: 10%;
+    background-color: $light-background;
+    color: $light-color;
+    
+    @media (prefers-color-scheme: dark) {
+    background-color: $dark-background;
+    color: $dark-color;
+    }
+
+    @media (prefers-color-scheme: light) {
+    background-color: $light-background;
+    color: $light-color;
+    }
+
+    [data-theme=dark] & {
+    background-color: $dark-background;
+    color: $dark-color;
+    }
+
+    [data-theme=light] & {
+    background-color: $light-background;
+    color: $light-color;
+    }
+}
+
+#the {
+    font-size: 8.5rem;
+}
+
+#wall {
+    font-size: 7.5rem;
+    letter-spacing: .8rem;
+}
+
+#street { 
+    letter-spacing: .5rem;
+}
+
+.flex-container > h2 {
+    display: block;
+    font-size: 3.25rem;
+    font-family: 'DMSerifDispplay', serif;
+    text-align: left;
+    background-color: $light-background;
+    color: $light-color;
+
+    @media (prefers-color-scheme: dark) {
+    background-color: $dark-background;
+    color: $dark-color;
+    }
+
+    @media (prefers-color-scheme: light) {
+    background-color: $light-background;
+    color: $light-color;
+    }
+
+    [data-theme=dark] & {
+    background-color: $dark-background;
+    color: $dark-color;
+    }
+
+    [data-theme=light] & {
+    background-color: $light-background;
+    color: $light-color;
+  }
 }
