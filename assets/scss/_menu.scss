@@ -37,6 +37,8 @@
     padding: 0 15px;
     font-size: 1rem;
     list-style: none;
+    overflow: auto;
+    white-space: nowrap;
 
     li {
       margin: 0 12px;
@@ -74,6 +76,7 @@
 
     &:hover {
       text-decoration: underline;
+      color: white;
     }
 
     &:last-of-type {
